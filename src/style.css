@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px
+}
+
+ol, ul {
+	list-style: none;
+}
+.app-holder {
+  display: flex;
+  gap: 32px;
+  border: 1px solid #000000;
+}
+
+.search__wrap {
+  background-color: #CBCBCB;
+  padding: 29px 27px 29px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__btn {
+  background-color: #3F50B5;
+  width: 95px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  color: #fff;;
+}
+
+.app-holder__left {
+  flex: 0 1 394px;
+}
+
+.search__input {
+  width: 223px;
+  height: 39px;
+  border: none;
+  margin-right: 19px;
+  outline: none;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 0 13px;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+.app-holder__center {
+  flex: 1 1 100%;
+}
+
+.app-holder__right {
+  flex: 0 1 384px;
+}
+
+.search__result {
+  max-height: 00px;
+  overflow: auto;
+}
+.search__result-item {
+  height: 125px;
+  padding: 20px 27px 20px 24px;
+  border: 1px solid #000;
+}
